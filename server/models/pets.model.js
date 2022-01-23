@@ -17,7 +17,7 @@ const PetsSchema = new mongoose.Schema(
         description: {
             type: String,
             required: [true, '{PATH} is required.'],
-            minlenght: [5, "{PATH} must be at least {MINLENGHT} characters."]
+            minlength: [5, "{PATH} must be at least {MINLENGTH} characters."]
         },
 
         skills1: {
